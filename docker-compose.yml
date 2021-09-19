@@ -1,9 +1,11 @@
 version: '2'
 services:
   ipfs:
-    image: ipfs/go-ipfs
+    image: ipfs/go-ipfs:latest
     volumes:
       - ./ipfs-config/:/data/ipfs/
+    # environment:
+      # - IPFS_LOGGING=info
     ports:
       - "4001:4001"
 
