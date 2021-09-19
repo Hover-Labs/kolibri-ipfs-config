@@ -1,0 +1,4 @@
+# Use htpasswd to generate a file:
+# 
+# $ htpasswd -c authfile someuser
+# 

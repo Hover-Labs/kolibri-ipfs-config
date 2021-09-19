@@ -1,0 +1,6 @@
+ipfs-config/keystore/key_*
+ipfs-config/config
+
+nginx-config/authfile
+
+.DS_Store
